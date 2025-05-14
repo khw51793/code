@@ -118,3 +118,9 @@ print(dt.score(test_input, test_target))
 
 ---------------------------------------------농업데이터-------------------------------------
 
+import pandas as pd
+
+url = 'https://raw.githubusercontent.com/khw51793/code/main/agriculture2.csv'
+df = pd.read_csv(url)
+
+print(df.head())
